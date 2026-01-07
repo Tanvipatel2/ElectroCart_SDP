@@ -9,7 +9,7 @@ if (isset($_GET["sub"]))
     {
         $num1 = intval($_GET["num1"]);
         $num2 = intval($_GET["num2"]);
-        echo $num1 - $num2;
+    
     }
 } 
 if (isset($_GET["add"])) 
