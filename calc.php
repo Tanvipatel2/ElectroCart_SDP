@@ -3,13 +3,21 @@ if (isset($_GET["sub"]))
 {
     if (empty($_GET["num1"]) && empty($_GET["num2"])) 
     {
+
         echo "Enter Number";
+
+        echo "Enter Number 123";
+ cb5ef71 (i changed "123".)
     }
     else
     {
         $num1 = intval($_GET["num1"]);
         $num2 = intval($_GET["num2"]);
+ HEAD
     
+
+        
+ cb5ef71 (i changed "123".)
     }
 } 
 if (isset($_GET["add"])) 
@@ -59,4 +67,5 @@ if (isset($_GET["add"]))
     </form>
 </body>
 </html>
+
 
