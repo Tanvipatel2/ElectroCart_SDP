@@ -24,6 +24,7 @@ if (isset($_GET["add"]))
 {
     $num1=0;
     $num2=0;
+    $num3=0;
     
     if (empty($_GET["num1"]) && empty($_GET["num2"])) 
     {
